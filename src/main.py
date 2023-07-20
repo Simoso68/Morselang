@@ -4,11 +4,11 @@ if "--version" in argv or "-v" in argv:
     print("Morselang Version 1.0.0")
 if "--help" in argv or "-h" in argv:
     print("""
-[-v/--version]      Prints the current version of the Morselang compiler to the terminal
-[-h/--help]         Prints the Morselang compiler help to the terminal
-[-f] <filename>
-[-l] <language>     Allows you to select the output language
-[-o] <file>         Select output file name""")
+-v, --version]     Prints the current version of the Morselang compiler to the terminal
+-h, --help]        Prints the Morselang compiler help to the terminal
+-f <filename>      Allows to select source file
+-l <language>      Allows you to select the output language
+-o <file>          Select output file name""")
       
 while True:
     try: 
