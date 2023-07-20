@@ -4,7 +4,7 @@
 
 Morselang is a compiled programming language. \
 \
-The compiler allows many settings on how you wish to compile your Morselang program. \
+The compiler allows many settings on how you wish to compile your Morselang program.
 ### First: Available Output Languages:
 
 - Python
@@ -45,7 +45,7 @@ If you want to write the output to a file. There is the feature to write to outp
 **Spaces:**
 
 To set a space as the compiler output, you'll need to add 7 spaces between the two letters/numbers, between which you want to place a space. \
-Why? \
+Why?
 
 In Morse code, if you want to set a space, you'll wait the duration of 7 dots, but you don't play any dots. \
 \
