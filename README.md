@@ -38,7 +38,7 @@ HELLO WORLD
 ```
 
 **NOTE:** The -o argument is not required, because it isn't being written to a file. \
-If you want to write the output to a file. There is the feature to write to output of a command to a file in every popular shell. Just try this.
+If you want to write the output to a file. There is the feature to write the output of a command to a file in every popular shell. Just try that.
 
 ### Third: Spaces, ending a letter/number, other
 \
@@ -47,11 +47,11 @@ If you want to write the output to a file. There is the feature to write to outp
 To set a space as the compiler output, you'll need to add 7 spaces between the two letters/numbers, between which you want to place a space. \
 Why?
 
-In Morse code, if you want to set a space, you'll wait the duration of 7 dots, but you don't play any dots. \
+In Morse code, if you want to set a space, you'll silently wait the duration of 7 dots. \
 \
 **Ending a letter/number:**
 \
-To state if you are done with a letter/number set a space after the morse code of the letter/number you want to seperate from the next one. \
+To state that you are done with a letter/number, set a space after the morse code of the letter/number you want to seperate from the next one. \
 \
 Hello World Example:
 
@@ -61,7 +61,7 @@ Hello World Example:
 \
 **New lines and carriage returns.**
 
-Due to the supported letters of the international morse code new lines (\n) and carriage returns (\r) are sadly not supported.
+Due to the supported letters of the international morse code, new lines (\n) and carriage returns (\r) are sadly not supported.
 
 ## Installation
 
@@ -111,7 +111,7 @@ python3 build.py
 The PATH allows you to execute any file from anywhere in your terminal, it is pretty useful.
 
 On Windows: \
-**IMPORTANT:** Now, no mindless copying. Do it one by one, because if you don't it wont work.
+**IMPORTANT:** Now, no mindless copying. Do it one by one, because if you don't, it wont work.
 ```powershell
 powershell
 New-Item -Path $Env:LOCALAPPDATA -Name "Morselang" -ItemType "directory"
